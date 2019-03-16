@@ -1,0 +1,168 @@
+/*个人网站独立样式 @zws */
+
+body {
+  background-color: #f9f9f9;
+}
+/* 字体 */
+@font-face {
+  font-family: 'RTWS';
+  src: url("../fonts/RTWSShangGoG0v1-ExLight.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 首页 */
+#webBg {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-image: url(../img/bg.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+.show {
+  font-family: "RTWS";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -523px;
+  padding: 10px;
+}
+.myPhoto {
+  width: 270px;
+  height: 270px;
+  margin-right: 100px;
+  border-radius: 135px;
+  border: 6px solid #e9ecf2;
+  background-image: url(../img/myPhoto.png);
+  box-shadow: 0 7px 9px rgba(22, 105, 155, 0.9);
+}
+.myWord {
+  font-family: "RTWS";
+  color: #fff;
+  margin-top: 10px;
+  text-shadow: 0 1px 1px rgba(22, 105, 155, 0.9);
+}
+.myName {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #fff;
+}
+.myName p:first-child {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.myName p:last-child {
+  font-size: 30px;
+}
+.myNav {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 40px;
+}
+.myNav .nav > li > a {
+  color: #fff;
+  padding: 0 20px;
+}
+.myNav .nav > li > a:focus,
+.myNav .nav > li > a:hover {
+  font-size: 30px;
+  background: none;
+  text-shadow: 0 1px 1px rgba(22, 105, 155, 0.9);
+}
+
+/* 导航栏 */
+.webMune {
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20%;
+}
+.webName {
+  font-family: "RTWS";
+  color: #fff;
+  font-size: 36px;
+}
+.webName span > img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+}
+.webMune .navbar {
+  color: #fff;
+  font-size: 16px;
+  background: none;
+  background-color: #0884ce;
+}
+.webMune .myNav .nav {
+  padding-top: 10px;
+}
+.webMune .myNav .nav > li > a:focus,
+.webMune .myNav .nav > li > a:hover {
+  font-size: 18px;
+  background: none;
+  text-decoration: underline;
+}
+
+/* 内容区域 */
+.contentBody {
+  padding-top: 40px;
+}
+.content {
+  color: #333;
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.content p {
+  line-height: 2.3rem;
+  text-indent:2em;
+}
+.FLTitle {
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-left: 10px solid #0884ce;
+}
+.SLTitle {
+  font-size: 16px;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-left: 10px solid #cecece;
+}
+.picSize {
+  width: 980px;
+}
+
+/* ui展示页面 */
+.uiH3 {
+  color: #555;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.picModal .modal-dialog {
+  width: 80%;
+}
+.picModal .modal-header,
+.picModal .modal-content {
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.picModal .modal-header .close {
+  color: #cecece;
+  font-size: 28px;
+  text-shadow: none;
+  opacity: 1;
+}

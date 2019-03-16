@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>朱文思</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 独立样式 -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="contentBody">
+    <div class="webMune">
+      <nav class="navbar navbar-default navbar-fixed-top pull-right myNav">
+        <div class="container">
+          <div class="webName pull-left">
+            <span><img src="img/myPhoto.png"class="img-circle"></span>
+            <span>Amy's website</span>
+          </div>
+          <div>
+            <ul class="nav nav-pills pull-right">
+              <li role="presentation"><a target="_self" href="index.html">首页</a></li>
+              <li role="presentation">丨</li>
+              <li role="presentation"><a target="_self" href="demand.html">需求</a></li>
+              <li role="presentation">丨</li>
+              <li role="presentation"><a target="_self" href="ux.html">交互</a></li>
+              <li role="presentation">丨</li>
+              <li role="presentation"><a target="_self" href="ui.html">UI</a></li>
+              <li role="presentation">丨</li>
+              <li role="presentation"><a target="_self" href="htmlcss.html">前端</a></li>
+              <li role="presentation">丨</li>
+              <li role="presentation"><a target="_self" href="about.html">关于</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="content">
+      <h3 class="uiH3 text-center">我的一些作品</h3>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail" data-toggle="modal" data-target="#myModal" type="button">
+            <img src="img/06-basketball.jpg" alt="...">
+          </a>
+        </div>
+      </div>
+      <!-- Small modal -->
+      <div class="modal fade picModal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content text-center">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/06-basketball.jpg" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
